@@ -1,0 +1,98 @@
+.Characterbox{
+    padding: 0.3rem 2rem;
+    background-color: rgb(116, 243, 255);
+    margin: 6rem;
+    border-color: blue;
+    width: 10rem;
+    border: 0.5rem solid #13a5ff;
+    margin-left: 8rem;
+}
+
+.Charaktere{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Characterbox h3{
+    justify-content: center;
+    color: #00516f;
+    font-size: 	1.7rem;
+    font-style: inherit;
+}
+
+body{
+    background-color: #dcdaf8;
+}
+
+.Überschrift{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #810ee6;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: fantasy;
+}
+
+.Steuerungsliste{
+    margin-left: 7rem;
+}
+
+.Steuerungsliste li{
+    font-style: initial;
+    color: #1185ce;
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Erklärungstext{
+    font-style: initial;
+    color: #1185ce;
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+#Seitentitel{
+    position: fixed;
+    background-color: rgb(141, 0, 212);
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    color: white;
+    min-height: 100px;
+    font-size: 5rem;
+    padding-left: 8rem;
+    top: 0;
+    left: 0;
+}
+
+#video{
+    width: 97.5%;
+    border-color: #810ee6;
+    border: 0.7rem solid #810ee6;
+}
+
+#logo{
+    position: static;
+    width: 97.5%;
+    margin-top: 90px;
+    border-color: #810ee6;
+    border: 0.7rem solid rgb(141, 0, 212);
+}
+
+footer{
+    font-size: 1.5rem;
+    position: relative;
+    background-color: rgb(141, 0, 212);
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    color: white;
+    min-height: 40px;
+    font-size: 2.1rem;
+    bottom:  0;
+    left: 0;
+    padding-left: 42.5%;
+}
